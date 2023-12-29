@@ -11,5 +11,18 @@
       "StackId": "arn:aws:cloudformation:us-east-1:725702213115:stack/amplify-2024nextjsportfolio-dev-114243/4a7f07c0-a669-11ee-84bf-0a10ce1ab56b",
       "AmplifyAppId": "d26mrh6yw6azvn"
     }
+  },
+  "portfolio": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-2024nextjsportfolio-portfolio-122458-authRole",
+      "UnauthRoleArn": "arn:aws:iam::725702213115:role/amplify-2024nextjsportfolio-portfolio-122458-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::725702213115:role/amplify-2024nextjsportfolio-portfolio-122458-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-2024nextjsportfolio-portfolio-122458-deployment",
+      "UnauthRoleName": "amplify-2024nextjsportfolio-portfolio-122458-unauthRole",
+      "StackName": "amplify-2024nextjsportfolio-portfolio-122458",
+      "StackId": "arn:aws:cloudformation:us-east-1:725702213115:stack/amplify-2024nextjsportfolio-portfolio-122458/316d6e60-a66f-11ee-93d5-0a047babfab7",
+      "AmplifyAppId": "d3oist7svwdolk"
+    }
   }
 }
