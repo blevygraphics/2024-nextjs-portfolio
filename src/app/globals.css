@@ -3,25 +3,89 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --foreground-rgb: 2, 6, 23;
+  --background-rgb: 256, 256, 256;
+  --yellow-rgb: 253, 224, 71;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --background-rgb: 0, 0, 0;
   }
 }
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: rgb(var(--background-rgb));
+}
+
+h1 {
+  font-size: clamp(1rem, 18vw, 18rem);
+  width: 100%;
+  text-transform: uppercase;
+  line-height: 1;
+  text-align: right;
+  z-index: 1;
+  position: relative;
+  /* mix-blend-mode: hard-light; */
+}
+
+h2 {
+  font-size: clamp(1rem, 8vw, 8rem);
+}
+
+.frame-y::after {
+  content: '';
+  position: absolute;
+  bottom: -95vh;
+  left: 0;
+  width: 100%;
+  height: 56px;
+  background-color: rgb(var(--background-rgb));
+}
+
+.frame-x::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 97vw;
+  width: 56px;
+  height: 100vh;
+  background-color: rgb(var(--background-rgb));
+}
+
+@-webkit-keyframes rotating
+
+/* Safari and Chrome */
+  {
+  from {
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotating {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
 }
