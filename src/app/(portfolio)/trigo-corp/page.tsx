@@ -28,10 +28,10 @@ export default function Annuity() {
 			</Section>
 			<Section>
 				<Image src="/trigo/trigo1.jpg" className="w-full col-span-10 col-start-2 mb-24 shadow-2xl" width={1400} height={1400} alt="trigo1" />
-				<h2 className={`${anton.className} col-start-2 col-span-10 leading-none text-left uppercase`}>My Role</h2>
+				{/* <h2 className={`${anton.className} col-start-2 col-span-10 leading-none text-left uppercase`}>My Role</h2>
 				<p className="col-start-2 col-span-10  columns-2 mb-24">
 					This project aims to help businesses achieve their goals by providing a comprehensive annuity solution. By leveraging advanced technologies and innovative design, the project offers a user-friendly platform for managing annuity investments. With features such as customizable investment plans, real-time analytics, and secure transactions, businesses can optimize their annuity strategies and maximize returns. Additionally, the project focuses on delivering a seamless user experience, ensuring that businesses can easily navigate and utilize the platform to achieve their financial objectives. By implementing this project, businesses can streamline their annuity management processes, enhance decision-making capabilities, and ultimately drive growth and success.
-				</p>
+				</p> */}
 				<ColorGrid bgColor={bgColor} textColor={textColor} />
 				<Image src="/trigo/trigo2.jpg" className="w-full col-span-10 col-start-2 shadow-2xl" width={1400} height={1400} alt="trigo2" />
 				<Image src="/trigo/trigo-case-study.jpg" className="w-full col-span-8 col-start-3 shadow-2xl" width={1400} height={1400} alt="trigo2" />

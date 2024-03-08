@@ -33,10 +33,10 @@ export default function CheesecakeFactory() {
 			</Section>
 			<Section>
 				<Image src="/cheesecake-factory/ccf-title-card.png" className="w-full col-span-10 col-start-2 shadow-2xl mb-24" width={1400} height={1400} alt="Cheesecake factory 1" />
-				<h2 className={`${anton.className} col-start-2 col-span-10 leading-none text-left uppercase`}>About</h2>
+				{/* <h2 className={`${anton.className} col-start-2 col-span-10 leading-none text-left uppercase`}>About</h2>
 				<p className="col-start-2 col-span-10  columns-2 mb-24">
 					This project aims to help businesses achieve their goals by providing a comprehensive annuity solution. By leveraging advanced technologies and innovative design, the project offers a user-friendly platform for managing annuity investments. With features such as customizable investment plans, real-time analytics, and secure transactions, businesses can optimize their annuity strategies and maximize returns. Additionally, the project focuses on delivering a seamless user experience, ensuring that businesses can easily navigate and utilize the platform to achieve their financial objectives. By implementing this project, businesses can streamline their annuity management processes, enhance decision-making capabilities, and ultimately drive growth and success.
-				</p>
+				</p> */}
 				<ColorGrid bgColor={bgColor} textColor={textColor} />
 				<Image src="/cheesecake-factory/ccf-phone.jpg" className="w-full col-span-10 col-start-2 shadow-2xl" width={1400} height={1400} alt="Cheesecake factory 1" />
 				<div className='col-start-2 col-span-4'>

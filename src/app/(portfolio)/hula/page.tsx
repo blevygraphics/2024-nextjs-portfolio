@@ -29,10 +29,10 @@ export default function Hula() {
 			</Section>
 			<Section>
 				<Image src="/hula/hula-intro-card.png" className="w-full col-span-10 col-start-2 shadow-2xl mb-48" width={1400} height={1400} alt="Hula Case Study" />
-				<h2 className={`${anton.className} col-start-2 col-span-10 leading-none text-left uppercase`}>My Role</h2>
+				{/* <h2 className={`${anton.className} col-start-2 col-span-10 leading-none text-left uppercase`}>My Role</h2>
 				<p className="col-start-2 col-span-10  columns-2 mb-48">
 					This project aims to help businesses achieve their goals by providing a comprehensive annuity solution. By leveraging advanced technologies and innovative design, the project offers a user-friendly platform for managing annuity investments. With features such as customizable investment plans, real-time analytics, and secure transactions, businesses can optimize their annuity strategies and maximize returns. Additionally, the project focuses on delivering a seamless user experience, ensuring that businesses can easily navigate and utilize the platform to achieve their financial objectives. By implementing this project, businesses can streamline their annuity management processes, enhance decision-making capabilities, and ultimately drive growth and success.
-				</p>
+				</p> */}
 				<ColorGrid bgColor={bgColor} textColor={textColor} />
 				<Image src="/hula/hula2.jpg" className="w-full col-span-10 col-start-2 shadow-2xl" width={2000} height={2000} alt="Hula Case Study" />
 				<Image src="/hula/hula3.jpg" className="col-span-10 col-start-2 shadow-2xl" width={2000} height={2000} alt="testing image" />
