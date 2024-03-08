@@ -35,6 +35,10 @@ h2 {
   font-size: clamp(1rem, 8vw, 8rem);
 }
 
+h3 {
+  font-size: clamp(1rem, 1.5vw, 1.5rem);
+}
+
 .frame-y::after {
   content: '';
   position: absolute;

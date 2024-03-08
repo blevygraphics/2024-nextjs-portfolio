@@ -3,43 +3,14 @@
 import Image from "next/image"
 import { motion } from "framer-motion"
 
-const SOCIAL_ICONS = [
-	{
-		key: 'github',
-		src: '/social/github.svg',
-		url: 'https://github.com/blevygraphics'
-	},
-	{
-		key: 'linkedin',
-		src: '/social/linkedin.svg',
-		url: 'https://www.linkedin.com/in/blaine-levy-graphics/'
-	},
-	{
-		key: 'facebook',
-		src: '/social/facebook.svg',
-		url: 'https://www.facebook.com/blainelevy87'
-	},
-	{
-		key: 'instagram',
-		src: '/social/instagram.svg',
-		url: 'https://www.instagram.com/selkies87/'
-	},
-	{
-		key: 'x',
-		src: '/social/x.svg',
-		url: 'https://twitter.com/BLGraphics'
-	},
-	{
-		key: 'behance',
-		src: '/social/behance.svg',
-		url: 'https://www.behance.net/blainelevygraphics'
-	},
-	{
-		key: 'dribbble',
-		src: '/social/dribbble.svg',
-		url: 'https://dribbble.com/blainelevygraphics'
-	},
-];
+interface SocialIconsProps {
+	icons: {
+		key: string;
+		src: string;
+		url: string;
+	}[];
+}
+
 
 const staggerIcons = {
 	show: {
@@ -62,13 +33,13 @@ const iconsAni = {
 	}
 };
 
-export default function SocialIcons() {
+export default function SocialIcons({ icons }: SocialIconsProps) {
 	return (
 		<motion.div layout
 			variants={staggerIcons}
 			initial='hidden'
 			animate='show' className="flex flex-row justify-between items-center overflow-hidden">
-			{[...SOCIAL_ICONS].map((icon) => (
+			{[...icons].map((icon) => (
 				<motion.a
 					layout
 					key={icon.key} // Add a unique "key" prop

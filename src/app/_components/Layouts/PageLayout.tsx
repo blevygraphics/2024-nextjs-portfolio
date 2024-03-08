@@ -27,7 +27,7 @@ export default function PageLayout({ children, animations, bgColor }: ChildProps
             <rect y="220" width="200" height="200" fill="#020617" />
             <rect width="200" height="200" fill="#020617" />
           </svg>
-          <p className="pl-2">PORTFOLIO</p>
+          <p className="pl-2">BL.CO</p>
         </Link>
         <Link prefetch={false} href="/" className="flex justify-end">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6">

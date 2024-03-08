@@ -1,15 +1,19 @@
 "use client";
 
-import Heading from '../../_components/UI/Heading';
+import Heading from '@/app/_components/UI/Heading';
 import Image from 'next/image';
-import Section from '../../_components/UI/Section';
-import PageLayout from '../../_components/Layouts/PageLayout';
+import Section from '@/app/_components/UI/Section';
+import PageLayout from '@/app/_components/Layouts/PageLayout';
+import { anton } from '@/app/styles/fonts';
+import ColorGrid from '@/app/_components/UI/ColorGrid';
 
 
 
 export default function ArborMemorial() {
 	const heading = ['Arbor', 'Memorial'];
 
+	const bgColor = ['bg-[#ddd7c0]', 'bg-[#3e3523]', 'bg-white', 'bg-[#ce7700]'];
+	const textColor = ['text-slate-950', 'text-white', 'text-slate-950', 'text-slate-950'];
 
 	const variants = {
 		initial: { clipPath: 'polygon(0 0, 0 0, 0 100%, 0 100%)' },
@@ -20,22 +24,18 @@ export default function ArborMemorial() {
 	return (
 		<PageLayout animations={variants} bgColor='bg-yellow-100 absolute'>
 			<Section>
-				<div className="col-start-2">
+				<div className="col-start-2 mt-24">
 					<Heading title={heading} />
 				</div>
 			</Section>
 			<Section>
-				<Image src="/arbor-memorial/arbor1.jpg" className="w-full col-span-10 col-start-2 shadow-2xl" width={1400} height={1400} alt="Arbor Memorial 1" />
-				<Image src="/arbor-memorial/arbor2.jpg" className="w-full col-span-10 col-start-2 shadow-2xl" width={1400} height={1400} alt="Arbor Memorial 2" />
-				<Image src="/arbor-memorial/arbor3.jpg" className="w-full col-span-10 col-start-2 shadow-2xl" width={1400} height={1400} alt="Arbor Memorial 3" />
-				<Image src="/arbor-memorial/arbor4.jpg" className="w-full col-span-10 col-start-2 shadow-2xl" width={1400} height={1400} alt="Arbor Memorial 4" />
-				<Image src="/arbor-memorial/arbor5.jpg" className="w-full col-span-10 col-start-2 shadow-2xl" width={1400} height={1400} alt="Arbor Memorial 5" />
-				<Image src="/arbor-memorial/arbor6.jpg" className="w-full col-span-10 col-start-2 shadow-2xl" width={1400} height={1400} alt="Arbor Memorial 6" />
-				<Image src="/arbor-memorial/arbor7.jpg" className="w-full col-span-10 col-start-2 shadow-2xl" width={1400} height={1400} alt="Arbor Memorial 7" />
-				<Image src="/arbor-memorial/arbor8.jpg" className="w-full col-span-10 col-start-2 shadow-2xl" width={1400} height={1400} alt="Arbor Memorial 8" />
-				<Image src="/arbor-memorial/arbor9.jpg" className="w-full col-span-10 col-start-2 shadow-2xl" width={1400} height={1400} alt="Arbor Memorial 9" />
-				<Image src="/arbor-memorial/arbor10.jpg" className="w-full col-span-10 col-start-2 shadow-2xl" width={1400} height={1400} alt="Arbor Memorial 10" />
-				<Image src="/arbor-memorial/arbor11.jpg" className="w-full col-span-10 col-start-2 shadow-2xl" width={1400} height={1400} alt="Arbor Memorial 11" />
+				<Image src="/arbor-memorial/arbor5.jpg" className="w-full col-span-10 col-start-2 mb-24 shadow-2xl" width={1400} height={1400} alt="Arbor Memorial 1" />
+				<h2 className={`${anton.className} col-start-2 col-span-10 leading-none text-left uppercase`}>My Role</h2>
+				<p className="col-start-2 col-span-10  columns-2 mb-24">
+					This project aims to help businesses achieve their goals by providing a comprehensive annuity solution. By leveraging advanced technologies and innovative design, the project offers a user-friendly platform for managing annuity investments. With features such as customizable investment plans, real-time analytics, and secure transactions, businesses can optimize their annuity strategies and maximize returns. Additionally, the project focuses on delivering a seamless user experience, ensuring that businesses can easily navigate and utilize the platform to achieve their financial objectives. By implementing this project, businesses can streamline their annuity management processes, enhance decision-making capabilities, and ultimately drive growth and success.
+				</p>
+				<ColorGrid bgColor={bgColor} textColor={textColor} />
+				<Image src="/arbor-memorial/arbor2.jpg" className="w-full col-span-8 col-start-3 shadow-2xl" width={1400} height={1400} alt="Arbor Memorial 2" />
 			</Section>
 		</PageLayout>
 	)
