@@ -87,7 +87,6 @@ export default function Annuity() {
 				<h2 className={`${anton.className} col-start-2 col-span-10 text-center`}>2019 vs. 2022</h2>
 				<Image src="/asbestos/asb-2019.jpg" className="col-span-6 shadow-2xl" width={1400} height={1400} alt="testing image" />
 				<Image src="/asbestos/asb-2022.jpg" className="col-span-6 shadow-2xl" width={1400} height={1400} alt="testing image" />
-				<Image src="/asbestos/asbestos-case-study.jpg" className="w-full col-span-10 col-start-2 shadow-2xl" width={1400} height={1400} alt="testing image" />
 			</Section>
 		</PageLayout>
 	)
