@@ -14,7 +14,7 @@ export default function Annuity() {
 	const heading = ['Asbestos', '.com'];
 
 	const bgColor = ['bg-[#1871C3]', 'bg-[#0D1020]', 'bg-[#edf4fa]', 'bg-[#fda20b]'];
-	const textColor = ['text-slate-950', 'text-white', 'text-slate-950', 'text-white'];
+	const textColor = ['text-white', 'text-white', 'text-slate-950', 'text-slate-950'];
 
 
 	const variants = {
