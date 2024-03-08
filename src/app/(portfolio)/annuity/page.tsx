@@ -79,16 +79,18 @@ export default function Annuity() {
 				<Image src="/annuity/annuity-title-card.png" className="w-full col-span-10 col-start-2 shadow-2xl mb-24" width={1400} height={1400} alt="testing image" />
 				<h2 className={`${anton.className} col-start-2 col-span-10 leading-none text-left uppercase`}>My Role</h2>
 				<p className="col-start-2 col-span-10 columns-2 mb-24">
-					As the Web Development Manager, I led the transformation of our project through four key initiatives. Firstly, I orchestrated the discovery and creation of Brand Redesigns, vision and goals. Secondly, I championed the leveraging of a scalable design system, ensuring consistency and efficiency across platforms. Thirdly, I coordinated Scrum projects adeptly, fostering seamless communication between designers and developers, thus enhancing productivity and synergy. Lastly, I spearheaded change management initiatives across departments, driving organizational alignment and fostering a culture of innovation and collaboration. Through these efforts, I navigated challenges and steered our project towards success with clarity and purpose.
+					As the Web Development Manager of Annuity.org, I led the transformation of our project through four key initiatives. Firstly, I orchestrated the discovery and creation of Brand Redesigns, vision and goals. Secondly, I championed the leveraging of a scalable design system, ensuring consistency and efficiency across platforms. Thirdly, I coordinated Scrum projects adeptly, fostering seamless communication between designers and developers, thus enhancing productivity and synergy. Lastly, I spearheaded change management initiatives across departments, driving organizational alignment and fostering a culture of innovation and collaboration. Through these efforts, I navigated challenges and steered our project towards success with clarity and purpose.
 				</p>
 				<ColorGrid bgColor={bgColor} textColor={textColor} />
-				<Image src="/annuity/annuity-responsive.jpg" className="col-start-2 col-span-10" width={2000} height={1400} alt="testing image" />
+				<Image src="/annuity/annuity-responsive.jpg" className="col-start-2 col-span-10" width={1638} height={1024} alt="testing image" />
 				<h2 className={`${anton.className} col-start-2 col-span-10 `}>Design System</h2>
 				<iframe className="col-start-2 col-span-10 mb-24" width="100%" height="700" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FHptoZhEBZG7ppTAy5cHshf%2F2023-AN-Design-System%3Ftype%3Ddesign%26node-id%3D157%253A834%26mode%3Ddesign%26t%3DXP6JtsfCf0OdCvbn-1"></iframe>
-				<Image src="/annuity/an-timeline.png" className="col-span-12" width={1400} height={1400} alt="testing image" />
 				<h2 className={`${anton.className} col-start-2 col-span-10`}>Mockups</h2>
-				<Image src="/annuity/annuity-2023-laptop.jpg" className="col-start-2 col-span-10 " width={2000} height={1400} alt="testing image" />
-				<Image src="/annuity/annuity-2023-backpage.jpg" className="col-start-2 col-span-10 " width={2000} height={1400} alt="testing image" />
+				<Image src="/annuity/annuity-desktop-diagonal.jpg" className="col-start-2 col-span-10 " width={2000} height={1400} alt="testing image" />
+				<Image src="/annuity/desktop-three-screen.jpg" className="col-start-2 col-span-10 " width={2000} height={1400} alt="testing image" />
+				<Image src="/annuity/annuity-home-desktop-diagonal.jpg" className="col-start-2 col-span-10 " width={2000} height={1400} alt="testing image" />
+				<Image src="/annuity/annuity-mobile-multishot.jpg" className="col-start-2 col-span-10 " width={2000} height={1400} alt="testing image" />
+				<Image src="/annuity/mobile-multi-shot.jpg" className="col-start-2 col-span-10 " width={2000} height={1400} alt="testing image" />
 			</Section>
 		</PageLayout>
 	)
