@@ -35,7 +35,7 @@ export default function ArborMemorial() {
 					This project aims to help businesses achieve their goals by providing a comprehensive annuity solution. By leveraging advanced technologies and innovative design, the project offers a user-friendly platform for managing annuity investments. With features such as customizable investment plans, real-time analytics, and secure transactions, businesses can optimize their annuity strategies and maximize returns. Additionally, the project focuses on delivering a seamless user experience, ensuring that businesses can easily navigate and utilize the platform to achieve their financial objectives. By implementing this project, businesses can streamline their annuity management processes, enhance decision-making capabilities, and ultimately drive growth and success.
 				</p> */}
 				<ColorGrid bgColor={bgColor} textColor={textColor} />
-				<Image src="/arbor-memorial/arbor2.jpg" className="w-full col-span-8 col-start-3 shadow-2xl" width={1400} height={1400} alt="Arbor Memorial 2" />
+				<Image src="/arbor-memorial/arbor-case-study.jpg" className="w-full col-span-8 col-start-3 shadow-2xl" width={1400} height={1400} alt="Arbor Memorial 2" />
 			</Section>
 		</PageLayout>
 	)
