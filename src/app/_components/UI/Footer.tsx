@@ -44,9 +44,9 @@ const SOCIAL_ICONS = [
 export default function Footer() {
   return (
     <footer className="w-full items-stretch bg-slate-950 text-white">
-      <div className="grid grid-cols-12 gap-9 mx-9 min-h-screen items-center">
-        <h2 className={`col-start-2 col-span-9 ${anton.className} mb-6 leading-none uppercase`}>Let&apos;s Connect</h2>
-        <div className="col-start-2 col-span-5 brightness-0 saturate-100 invert-[100%] sepia-0 saturate-[7440%] hue-rotate-[144deg] brightness-[118%] contrast=[99%]">
+      <div className="grid grid-cols-12 gap-9 mx-9 lg:min-h-screen items-center">
+        <h2 className={`col-start-2 col-span-9 ${anton.className} mb-6 leading-none uppercase`}>Follow Me</h2>
+        <div className="col-start-2 col-span-5 invert-[100%]  hue-rotate-[334deg] brightness-[0%] contrast=[113%]">
           <SocialIcons icons={SOCIAL_ICONS} />
         </div>
         <p className="col-start-2 col-span-9">©2024 | Blaine Levy</p>

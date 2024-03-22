@@ -23,7 +23,7 @@ export default function CardAlt({ url, image, title, bgColor, width, height, sub
 		<>
 			<section className="w-full relative">
 				<Link href={url} scroll={false}>
-					<div className={`grid grid-cols-12 gap-9 mx-9 min-h-screen items-center font-extralight leading-relaxed`}>
+					<div className={`lg:grid grid-cols-12 gap-9 mx-9 min-h-screen items-center font-extralight leading-relaxed`}>
 						<motion.div
 							initial={{ clipPath: 'polygon(0 0, 0 0, 0 101%, 0 101%)' }}
 							whileInView={{
@@ -32,7 +32,7 @@ export default function CardAlt({ url, image, title, bgColor, width, height, sub
 							}}
 							exit={{ clipPath: 'polygon(0 0, 0 0, 0 101%, 0 101%)' }}
 							viewport={{ once: true }}
-							className={`${reverse ? 'col-start-8 left-10' : 'col-start-1 right-10'} col-span-3 absolute z-10 h-screen  flex items-center ${bgColor}`}
+							className={`${reverse ? 'col-start-8 left-10' : 'col-start-1 right-10'} col-span-3 lg:absolute z-10 h-screen  flex items-center ${bgColor}`}
 						>
 							<Image src={image} className="m-auto h-auto" width={width} height={height} alt={`${title}`} />
 						</motion.div>

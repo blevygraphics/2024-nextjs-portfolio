@@ -49,10 +49,10 @@ export default function Hero() {
 
   return (
     <section className="w-full items-stretch">
-      <div className="grid grid-cols-12 gap-9 mx-9 min-h-screen items-center">
+      <div className="md:grid grid-cols-12 gap-9 mx-9 min-h-screen items-center">
         <div className="col-start-2 col-span-5 items-center">
           <Heading title={heading} />
-          <p className="text-right tracking-widest font-thin text-lg">UI & UX Design | Full-Stack Developer | Web Manager</p>
+          <p className="md:text-right tracking-widest font-thin text-lg">UI & UX Design | Full-Stack Developer | Web Manager</p>
         </div>
         <div className="col-start-7 col-span-5">
           <div className="shadow-2xl bg-yellow-300">

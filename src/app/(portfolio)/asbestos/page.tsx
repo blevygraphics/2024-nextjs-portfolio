@@ -10,7 +10,7 @@ import SocialIcons from '@/app/_components/UI/SocialIcons';
 
 
 
-export default function Annuity() {
+export default function Asbestos() {
 	const heading = ['Asbestos', '.com'];
 
 	const bgColor = ['bg-[#1871C3]', 'bg-[#0D1020]', 'bg-[#edf4fa]', 'bg-[#fda20b]'];
@@ -80,7 +80,7 @@ export default function Annuity() {
 				<Image src="/asbestos/asbestos-title-card.png" className="w-full col-span-10 col-start-2 mb-24 shadow-2xl" width={1400} height={1400} alt="testing image" />
 				{/* <h2 className={`${anton.className} col-start-2 col-span-10 leading-none text-left uppercase`}>My Role</h2>
 				<p className="col-start-2 col-span-10 columns-2 mb-24">
-					This project aims to help businesses achieve their goals by providing a comprehensive annuity solution. By leveraging advanced technologies and innovative design, the project offers a user-friendly platform for managing annuity investments. With features such as customizable investment plans, real-time analytics, and secure transactions, businesses can optimize their annuity strategies and maximize returns. Additionally, the project focuses on delivering a seamless user experience, ensuring that businesses can easily navigate and utilize the platform to achieve their financial objectives. By implementing this project, businesses can streamline their annuity management processes, enhance decision-making capabilities, and ultimately drive growth and success.</p> */}
+					This project aims to help businesses achieve their goals by providing a comprehensive Asbestos solution. By leveraging advanced technologies and innovative design, the project offers a user-friendly platform for managing Asbestos investments. With features such as customizable investment plans, real-time analytics, and secure transactions, businesses can optimize their Asbestos strategies and maximize returns. Additionally, the project focuses on delivering a seamless user experience, ensuring that businesses can easily navigate and utilize the platform to achieve their financial objectives. By implementing this project, businesses can streamline their Asbestos management processes, enhance decision-making capabilities, and ultimately drive growth and success.</p> */}
 				<ColorGrid bgColor={bgColor} textColor={textColor} />
 				<Image src="/asbestos/asbestos-1.jpg" className="w-full col-span-10 col-start-2 shadow-2xl" width={1400} height={1400} alt="testing image" />
 				<Image src="/asbestos/asbestos-2.jpg" className="w-full col-span-10 col-start-2 shadow-2xl" width={1400} height={1400} alt="testing image" />

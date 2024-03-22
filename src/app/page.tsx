@@ -15,7 +15,7 @@ const CARDS = [
 		title: "Asbestos",
 		width: 500,
 		height: 900,
-		subtitle: "Creative Direction / UX ",
+		subtitle: "Creative Direction / UX / Development ",
 		description: "Asbestos.com is a comprehensive web resource that provides information about asbestos exposure and mesothelioma."
 	},
 	{
@@ -27,6 +27,36 @@ const CARDS = [
 		height: 900,
 		subtitle: "Creative Direction / UX / Front-End Development / Project Management",
 		description: "Annuity.org is a free, comprehensive web resource designed to answer all your questions about annuities and structured settlements."
+	},
+	{
+		image: "/drugwatch/dw-title-card.jpg",
+		url: "drugwatch",
+		bgColor: "bg-blue-600",
+		title: "Drug Watch",
+		width: 500,
+		height: 900,
+		subtitle: "Creative Direction / UX / Front-End Development / Project Management",
+		description: "Drugwatch.com is a comprehensive web resource that provides information about prescription and over-the-counter medications."
+	},
+	{
+		image: "/retireguide/retireguide-card.png",
+		url: "retireguide",
+		bgColor: "bg-indigo-50",
+		title: "Retire Guide",
+		width: 500,
+		height: 900,
+		subtitle: "Creative Direction / UX / Front-End Development / Project Management",
+		description: "RetireGuide.com is a free, comprehensive web resource designed to help you plan for retirement."
+	},
+	{
+		image: "/consumernotice/consumer-notice-card.png",
+		url: "consumer-notice",
+		bgColor: "bg-slate-50",
+		title: "Consumer Notice",
+		width: 500,
+		height: 900,
+		subtitle: "Creative Direction / UX / Front-End Development / Project Management",
+		description: "ConsumerNotice.org is a comprehensive web resource that provides information about consumer rights and protections."
 	},
 	{
 		image: "/wocket/wocket-wallet-card.gif",
@@ -108,36 +138,6 @@ const CARDS = [
 		subtitle: "Creative Direction / Illustration / Apparel Design",
 		description: "Print design is a form of visual communication that uses typography, photography, and illustration to convey a message."
 	}
-	// {
-	// 	image: "/retireguide/retireguide-card.png",
-	// 	url: "retireguide",
-	// 	bgColor: "bg-indigo-50",
-	// 	title: "Retire Guide",
-	// 	width: 500,
-	// 	height: 900,
-	// 	subtitle: "Creative Direction / UX / Front-End Development / Project Management",
-	// 	description: "RetireGuide.com is a free, comprehensive web resource designed to help you plan for retirement."
-	// },
-	// {
-	// 	image: "/drugwatch/dw-title-card.jpg",
-	// 	url: "drugwatch",
-	// 	bgColor: "bg-blue-600",
-	// 	title: "Drug Watch",
-	// 	width: 500,
-	// 	height: 900,
-	// 	subtitle: "Creative Direction / UX / Front-End Development / Project Management",
-	// 	description: "Drugwatch.com is a comprehensive web resource that provides information about prescription and over-the-counter medications."
-	// },
-	// {
-	// 	image: "/consumernotice/consumer-notice-card.png",
-	// 	url: "consumer-notice",
-	// 	bgColor: "bg-slate-50",
-	// 	title: "Consumer Notice",
-	// 	width: 500,
-	// 	height: 900,
-	// 	subtitle: "Creative Direction / UX / Front-End Development / Project Management",
-	// 	description: "ConsumerNotice.org is a comprehensive web resource that provides information about consumer rights and protections."
-	// }
 ]
 
 
