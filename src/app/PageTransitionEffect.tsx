@@ -11,7 +11,7 @@ function FrozenRouter(props: { children: React.ReactNode }) {
   const frozen = useRef(context).current;
 
   if (!frozen) {
-    return <><div className="bg-yellow-300 min-w-screen min-h-screen"></div></>;
+    return <></>;
   }
 
   return (

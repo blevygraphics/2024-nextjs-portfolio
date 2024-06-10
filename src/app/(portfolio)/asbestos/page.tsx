@@ -78,9 +78,34 @@ export default function Asbestos() {
 			</Section>
 			<Section>
 				<Image src="/asbestos/asbestos-title-card.png" className="w-full col-span-10 col-start-2 mb-24 shadow-2xl" width={1400} height={1400} alt="testing image" />
-				{/* <h2 className={`${anton.className} col-start-2 col-span-10 leading-none text-left uppercase`}>My Role</h2>
-				<p className="col-start-2 col-span-10 columns-2 mb-24">
-					This project aims to help businesses achieve their goals by providing a comprehensive Asbestos solution. By leveraging advanced technologies and innovative design, the project offers a user-friendly platform for managing Asbestos investments. With features such as customizable investment plans, real-time analytics, and secure transactions, businesses can optimize their Asbestos strategies and maximize returns. Additionally, the project focuses on delivering a seamless user experience, ensuring that businesses can easily navigate and utilize the platform to achieve their financial objectives. By implementing this project, businesses can streamline their Asbestos management processes, enhance decision-making capabilities, and ultimately drive growth and success.</p> */}
+			</Section>
+			<Section>
+				<div className="col-span-10 col-start-2 border-b-2 border-slate-200 grid grid-cols-2 grid-flow-row pb-8">
+					<p className="text-slate-500 uppercase">Client</p>
+					<p>Launch That</p>
+				</div>
+				<div className="col-span-10 col-start-2 border-b-2 border-slate-200 grid grid-cols-2 grid-flow-row pb-8">
+					<p className="text-slate-500 uppercase">Year</p>
+					<p>2022</p>
+				</div>
+				<div className="col-span-10 col-start-2 border-b-2 border-slate-200 grid grid-cols-2 grid-flow-row pb-8">
+					<p className="text-slate-500 uppercase">Serivce</p>
+					<p>Launch That</p>
+				</div>
+				<div className="col-span-10 col-start-2 border-b-2 border-slate-200 grid grid-cols-2 grid-flow-row pb-8">
+					<p className="text-slate-500 uppercase">Platform</p>
+					<p>Launch That</p>
+				</div>
+				<div className="col-span-10 col-start-2 border-b-2 border-slate-200 grid grid-cols-2 grid-flow-row pb-8">
+					<p className="text-slate-500 uppercase">Challenges</p>
+					<p>Overcoming challenges of an outdated website, poor user engagement, and limited brand visibility, the strategy and website design intervention for an interior college focused on revamping its online presence, improving program communication, and streamlining information architecture.</p>
+				</div>
+				<div className="col-span-10 col-start-2 border-b-2 border-slate-200 grid grid-cols-2 grid-flow-row pb-8 mb-24">
+					<p className="text-slate-500 uppercase">Solutions</p>
+					<p>Implementing a comprehensive redesign, introducing interactive elements, and restructuring information architecture successfully addressed the challenges, resulting in a revitalized online presence, enhanced user engagement, and improved communication for an interior college. Additionally, strategic content planning and targeted digital marketing efforts increased brand visibility and interest in the college&apos;s programs.</p>
+				</div>
+			</Section>
+			<Section>
 				<ColorGrid bgColor={bgColor} textColor={textColor} />
 				<Image src="/asbestos/asbestos-1.jpg" className="w-full col-span-10 col-start-2 shadow-2xl" width={1400} height={1400} alt="testing image" />
 				<Image src="/asbestos/asbestos-2.jpg" className="w-full col-span-10 col-start-2 shadow-2xl" width={1400} height={1400} alt="testing image" />

@@ -20,7 +20,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={poppins.className}>
+      <body suppressHydrationWarning={true} className={poppins.className}>
         <PageTransitionEffect>{children}</PageTransitionEffect>
       </body>
       <GoogleTagManager gtmId='GTM-56VBLDR9' />

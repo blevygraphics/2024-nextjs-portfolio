@@ -52,7 +52,7 @@ export default function Hero() {
       <div className="md:grid grid-cols-12 gap-9 mx-9 min-h-screen items-center">
         <div className="col-start-2 col-span-5 items-center">
           <Heading title={heading} />
-          <p className="md:text-right tracking-widest font-thin text-lg">UI & UX Design | Full-Stack Developer | Web Manager</p>
+          <p className="md:text-left tracking-widest font-thin text-lg">Product Designer | Developer | Web Manager</p>
         </div>
         <div className="col-start-7 col-span-5">
           <div className="shadow-2xl bg-yellow-300">
@@ -70,7 +70,10 @@ export default function Hero() {
                 animate={{ scale: 1, transition: { duration: 1, ease: [.7, 0, .6, .98] } }}
                 exit={{ scale: 3, transition: { duration: 1, ease: [.7, 0, .6, .98] } }}
               >
-                <Image src="/clay-profile.jpg" className="w-full" width={1200} height={1200} alt="testing image" />
+                {/* <Image src="/clay-profile.jpg" className="w-full" width={1200} height={1200} alt="testing image" /> */}
+                <video autoPlay muted loop className="">
+                  <source src="./Photo-Gallery.mp4" type="video/mp4" />
+                </video>
               </motion.div>
             </motion.div>
           </div>

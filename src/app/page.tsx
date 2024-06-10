@@ -4,6 +4,7 @@ import CardAlt from './_components/UI/Card-alt';
 import Hero from './_components/UI/Hero';
 import PageLayout from './_components/Layouts/PageLayout';
 import { anton } from './styles/fonts';
+import Section from './_components/UI/Section';
 // import Image from 'next/image';
 
 const CARDS = [
@@ -151,8 +152,11 @@ export default function Home() {
 
 	return (
 
-		<PageLayout animations={animations} bgColor='bg-slate-100 fixed'>
+		<PageLayout animations={animations} bgColor='bg-slate-100 absolute'>
 			<Hero />
+			<Section>
+				<h2 className={`${anton.className} col-start-2 col-span-10  mt-32 mb-32 leading-none text-left uppercase`}>I&apos;m a <span className="text-yellow-400">Product Designer</span> and <span className="text-yellow-400">Front-End Dev</span> aligning teams towards great <span className="text-yellow-400">User Experiences</span></h2>
+			</Section>
 			{CARDS.map((card, i) => (
 				<CardAlt
 					key={i}
